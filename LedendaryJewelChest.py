@@ -153,4 +153,5 @@ def LegendaryJewelChest(n):
     print("TrapATK",TrapATK)
     print("TrapDEF",TrapDEF)
 
-LegendaryJewelChest(1000)
+n=int(input("Amount of Legendary Jewel chests: "))
+LegendaryJewelChest(n)
