@@ -2,10 +2,11 @@
 # Defines a simulation for Epic Jewels Chests Drops
 
 def EpicJewelChest(n):
+    
     import random
-    inicio=1
-    fin=10
-    fin2=100
+    begin=1
+    end=10
+    end2=100
     GoldInfATK = PurpleInfATK = BlueInfATK = GreenInfATK = GrayInfATK = 0
     GoldCavATK = PurpleCavATK = BlueCavATK = GreenCavATK = GrayCavATK = 0
     GoldRanATK = PurpleRanATK = BlueRanATK = GreenRanATK = GrayRanATK = 0
@@ -16,9 +17,10 @@ def EpicJewelChest(n):
     GoldWallDEF = PurpleWallDEF = BlueWallDEF = GreenWallDEF = GrayWallDEF = 0
     GoldTrapATK = PurpleTrapATK = BlueTrapATK = GreenTrapATK = GrayTrapATK = 0
     GoldTrapDEF = PurpleTrapDEF = BlueTrapDEF = GreenTrapDEF = GrayTrapDEF = 0
+    
     for i in range(n):
-        TipoGema=random.randint(inicio,fin)
-        ChestDropQuality=random.randint(inicio,fin2)
+        TipoGema=random.randint(begin,end)
+        ChestDropQuality=random.randint(begin,end2)
         if ChestDropQuality > 95: #Purple
             if TipoGema == 1:
                 PurpleInfATK+=1
@@ -108,4 +110,5 @@ def EpicJewelChest(n):
     print("TrapATK",TrapATK)
     print("TrapDEF",TrapDEF)
 
-EpicJewelChest(1000)
+n=int(input("Amount of Epic Jewel chests: "))
+EpicJewelChest(n)
