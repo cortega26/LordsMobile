@@ -98,7 +98,6 @@ def EpicJewelChest(n):
     TrapATK=(GoldTrapATK*256)+(PurpleTrapATK*64)+(BlueTrapATK*16)+(GreenTrapATK*4)+(GrayTrapATK)
     TrapDEF=(GoldTrapDEF*256)+(PurpleTrapDEF*64)+(BlueTrapDEF*16)+(GreenTrapDEF*4)+(GrayTrapDEF)
 
-    print("Purple Chests:",n)
     print("InfATK",InfATK)
     print("CavATK",CavATK)
     print("RanATK",RanATK)
