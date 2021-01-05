@@ -1,5 +1,5 @@
 # Python code
-# Defines a simulation for Epic Jewels Chests Drops
+# Defines a simulation for Epic Jewel Chests Drops
 
 def EpicJewelChest(n):
     
