@@ -1,6 +1,6 @@
 
 # Python Code
-# Defines a simulation for Legendary Jewels Chests Drops
+# Defines a simulation for Legendary Jewel Chests Drops
 
 def LegendaryJewelChest(n):
     import random
